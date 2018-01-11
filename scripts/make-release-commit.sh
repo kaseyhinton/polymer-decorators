@@ -63,7 +63,7 @@ npm install && npm run build
 
 # Add our generated files to the commit. We need to use --force because these
 # files are in our .gitignore.
-git add --force global.{js,d.ts}
+git add --force polymer-decorators.{js,d.ts} mixins/*.d.ts
 
 # Ready to release.
 git commit --message "Release $npm_package_version"
